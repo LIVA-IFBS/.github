@@ -1,7 +1,7 @@
 Description
 =============
 
-This merge request solves [task xxx](https://kb.liva-cloud.com/task/xxx) by ....
+This merge request solves task xxx by ....
 
 Review
 =============
