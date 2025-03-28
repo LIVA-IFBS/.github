@@ -1,0 +1,57 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+type: "Bug"
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact details
+      description: How can we get in touch with you if we need more info?
+      placeholder: example@liva-pms.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: Clearly and specifically identify the issue, stick to one bug per bug report and make sure the bug keeps occurring. Keep the bug report brief, stick to the facts, and include only relevant details
+      placeholder:
+      value:      |
+        
+        **Description:**
+        
+        TODO add description
+        
+        **Steps to Reproduce:**
+        
+        1. *TODO: please list all required steps to reproduce the Bug*
+        2.
+        3.
+        
+        **Expected vs. Actual Results:**
+        
+        *TODO: Please describe expected vs. actual result.*
+        
+        **Analysis Results:**
+        
+        *TODO: Add VCSS Vector String and analysis result*
+        *Example:*
+        *CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:L/SA:N/E:A/CR:H/IR:H/AR:H/MAT:N/MVC:H/MVI:H/MVA:H/MSC:H/MSI:H/MSA:H/S:N/AU:Y/R:U/RE:L/U:Red*
+
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell

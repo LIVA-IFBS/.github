@@ -1,0 +1,45 @@
+name: Task
+description: File a task.
+title: "[Task]: "
+type: "Task"
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to create this task!
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact details
+      description: How can we get in touch with you if we need more info?
+      placeholder: example@liva-pms.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Task description
+      description: Clearly and specifically describe the task from a user or customer point of view.
+      placeholder:
+      value:      |
+        
+        **Description:**
+        
+        TODO add description.
+        Examples:
+          - "As user, starting the battery via Modbus register 1234 is possible in idle mode."
+          - "For the end user, the firmware provides a release information via HTTP (including version name, build-date and build number)"
+          - "As C-level manager, I want to be able to invite my friends to the cloud system, so we can enjoy the cloud service together."
+        
+        **Acceptance Criteria:**
+        
+        1. *TODO: please list all points which have to be checked for acceptance (in addition to the DoD)*
+        2.
+        3.
+
+
+    validations:
+      required: true
