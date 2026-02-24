@@ -25,26 +25,32 @@ body:
       description: Clearly and specifically identify the issue, stick to one bug per bug report and make sure the bug keeps occurring. Keep the bug report brief, stick to the facts, and include only relevant details
       placeholder:
       value:      |
-        
+
         **Description:**
-        
-        TODO add description
-        
+
+
+
         **Steps to Reproduce:**
-        
-        1. *TODO: please list all required steps to reproduce the Bug*
+
+        1. 
         2.
         3.
-        
+
         **Expected vs. Actual Results:**
-        
-        *TODO: Please describe expected vs. actual result.*
-        
+
+        Expected:
+        Actual:
+
         **Analysis Results:**
-        
-        *TODO: Add VCSS Vector String and analysis result*
-        *Example:*
-        *CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:L/SA:N/E:A/CR:H/IR:H/AR:H/MAT:N/MVC:H/MVI:H/MVA:H/MSC:H/MSI:H/MSA:H/S:N/AU:Y/R:U/RE:L/U:Red*
+
+        Criticality: 0 = Critical
+
+          - Class: 0
+          - Severity: 0
+          - Likelihood: 0
+
+        CVSS v4.0 Score: 0 / None
+        CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:N/SA:N
 
     validations:
       required: true
