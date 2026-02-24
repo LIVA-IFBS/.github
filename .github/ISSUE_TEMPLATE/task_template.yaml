@@ -25,17 +25,17 @@ body:
       description: Clearly and specifically describe the task from a user or customer point of view.
       placeholder:
       value:      |
-        
+
         **Description:**
-        
-        TODO add description.
+
+        TODO: add a description here and remove this line and the follwing lines, they serve only as an example.
         Examples:
           - "As user, starting the battery via Modbus register 1234 is possible in idle mode."
           - "For the end user, the firmware provides a release information via HTTP (including version name, build-date and build number)"
           - "As C-level manager, I want to be able to invite my friends to the cloud system, so we can enjoy the cloud service together."
-        
+
         **Acceptance Criteria:**
-        
+
         1. *TODO: please list all points which have to be checked for acceptance (in addition to the DoD)*
         2.
         3.
