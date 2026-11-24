@@ -43,13 +43,13 @@ body:
 
         **Analysis Results:**
 
-        Criticality: 0 = Critical
+        Criticality: TODO
 
-          - Class: 0
-          - Severity: 0
-          - Likelihood: 0
+          - Class: TODO
+          - Severity: TODO
+          - Likelihood: TODO
 
-        CVSS v4.0 Score: 0 / None
+        CVSS v4.0 Score: TODO / TODO
         CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:N/SA:N
 
     validations:
