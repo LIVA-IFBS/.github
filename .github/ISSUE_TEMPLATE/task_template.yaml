@@ -9,11 +9,6 @@ body:
       value: |
         Thanks for taking the time to create this task!
 
-  - type: input
-    id: contact
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:
